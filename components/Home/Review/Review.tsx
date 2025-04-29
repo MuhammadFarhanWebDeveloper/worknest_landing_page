@@ -39,16 +39,16 @@ export default function Review() {
           showDots
         >
           <div className="w-[97%] sm:w-[90%] md:w-[80%] mx-auto">
-            <ReviewCard name="Farhan" image="/images/c1.png" />
+            <ReviewCard name="Evan Mercer" image="/images/c1.png" />
           </div>
           <div className="w-[97%] sm:w-[90%] md:w-[80%] mx-auto">
-            <ReviewCard name="Farhan" image="/images/c2.png" />
+            <ReviewCard name="Evan Mercer" image="/images/c2.png" />
           </div>
           <div className="w-[97%] sm:w-[90%] md:w-[80%] mx-auto">
-            <ReviewCard name="Farhan" image="/images/c1.png" />
+            <ReviewCard name="Evan Mercer" image="/images/c1.png" />
           </div>
           <div className="w-[97%] sm:w-[90%] md:w-[80%] mx-auto">
-            <ReviewCard name="Farhan" image="/images/c2.png" />
+            <ReviewCard name="Evan Mercer" image="/images/c2.png" />
           </div>
         </Carousel>
       </div>

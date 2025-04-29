@@ -49,7 +49,7 @@ function Nav({ openMobileMenu }: NavProps) {
       </div>
       {/* Join Now Button */}
       <div className="flex justify-center items-center space-x-4 gap-3">
-        <button className="p-2 px-4 rounded-3xl bg-blue-600 hover:bg-blue-900 cursor-pointer text-white transition-all duration-300">
+        <button className="sm:p-2 sm:px-4 p-1 rounded-lg sm:rounded-3xl bg-blue-600 hover:bg-blue-900 cursor-pointer text-white transition-all duration-300 sm:text-lg text-sm">
           Join Now
         </button>
         <HiOutlineMenuAlt3
