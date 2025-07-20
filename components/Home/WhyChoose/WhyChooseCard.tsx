@@ -14,7 +14,7 @@ export default function WhyChooseCard({
   desc,
 }: WhyChooseCardProps) {
   return (
-    <div className="shadow-lg">
+    <div className="shadow-lg p-1">
       <Image
         src={image}
         alt={title}

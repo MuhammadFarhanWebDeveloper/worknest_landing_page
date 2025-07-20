@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className=" flex justify-center lg:flex-row flex-col-reverse  lg:h-[95vh] py-5 md:py-5 lg:py-20 px-3 md:px-5 items-center">
       <div className="w-full flex flex-col  h-full  lg:pt-10 gap-5 lg:w-1/2">
-        <div className="bg-white md:px-3 text-sm md:flex hidden flex-row  justify-center items-center p-2 md:py-2 text-center shadow-lg rounded-3xl w-fit">
+        <div data-aos="fade-up" className="bg-white md:px-3 text-sm md:flex hidden flex-row  justify-center items-center p-2 md:py-2 text-center shadow-lg rounded-3xl w-fit">
           <span className="rounded-3xl px-2 p-1 md:w-fit w-full bg-blue-700 mx-3 text-white">
             New
           </span>
@@ -17,7 +17,9 @@ export default function Hero() {
         >
           Your essential companion for a more productive and seamless workday.
         </h1>
-        <p>
+        <p data-aos="fade-up" 
+        data-aos-delay="100"
+        >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
           ipsam laudantium qui velit assumenda commodi laboriosam cumque laborum
           perferendis totam.
@@ -25,6 +27,9 @@ export default function Hero() {
 
         <div className="flex justify-center  w-fit items-center gap-3">
           <Image
+            data-aos="fade-up"
+                    data-aos-delay="200"
+
             src={"/images/gp.png"}
             width={150}
             height={46}
@@ -32,6 +37,9 @@ export default function Hero() {
             alt="Google Play"
           />
           <Image
+                  data-aos-delay="300"
+
+            data-aos="fade-up"
             src={"/images/as.png"}
             width={150}
             height={46}

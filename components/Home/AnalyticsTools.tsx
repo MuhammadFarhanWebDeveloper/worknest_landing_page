@@ -19,7 +19,7 @@ export default function AnalyticsTools() {
           className="object-contain w-[500px]  lg:w-[1000px] "
         />
       </div>
-      <div className="px-4">
+      <div data-aos="fade-left" className="px-4">
         <p className="text-orange-500 font-semibold text-lg">
           Audience tracking and insights
         </p>

@@ -55,7 +55,10 @@ export default function Features() {
 
   return (
     <div className="lg:px-8 md:px-4 px-2 py-10">
-      <h1 className="py-10 font-bold capitalize text-3xl text-center">
+      <h1
+        data-aos="fade-right"
+        className="py-10 font-bold capitalize text-3xl text-center"
+      >
         Its Everything you will ever need
       </h1>
       <div className="py-5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

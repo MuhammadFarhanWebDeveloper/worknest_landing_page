@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="p-6 flex flex-col md:flex-row text-gray-600 items-center justify-between">
-        <p className="text-sm">Copyright &copy; 2024 Webdev. All rights reserved</p>
+        <p className="text-sm">Copyright &copy; 2025 <span className="text-[#BE185D]">Farhan</span>. All rights reserved</p>
         <div className="flex items-center gap-3">
           <p>Social:</p>
           <FaFacebook />

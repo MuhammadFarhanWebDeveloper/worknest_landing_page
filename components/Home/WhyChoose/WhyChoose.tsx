@@ -31,7 +31,9 @@ export default function WhyChoose() {
 
   return (
     <div className="py-10">
-      <h1 className="text-center font-bold leading-[1.2] text-2xl md:text-3xl">
+      <h1 
+      data-aos="fade-right"
+      className="text-center font-bold leading-[1.2] text-2xl md:text-3xl">
         Why you choose this application
       </h1>
 
@@ -39,8 +41,8 @@ export default function WhyChoose() {
         {whychoose.map((item, index) => (
           <div
             key={index}
-            data-aos="fade-right"
-            data-aos-delay={`${index * 100}`}
+            data-aos="fade-up"
+            data-aos-delay={`${index * 300}`}
             data-aos-anchor-placement="top-center"
           >
             <WhyChooseCard

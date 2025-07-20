@@ -30,7 +30,7 @@ function Nav({ openMobileMenu }: NavProps) {
       } py-4 px-2 flex justify-around items-center  navbar fixed top-0 left-0 right-0 z-10`}
     >
       {/* Logo */}
-      <div className="font-bold text-3xl">
+      <div data-aos="fade-up" className="font-bold text-3xl">
         <span className="text-[#BE185D]">W</span>ork
         <span className="text-[#BE185D]">N</span>est
       </div>
@@ -39,7 +39,7 @@ function Nav({ openMobileMenu }: NavProps) {
       <div className="hidden lg:block">
         <ul className=" flex space-x-8 text-lg font-semibold">
           {NAV_LINKS.map((link, index) => (
-            <li className="inline-block  relative nav-link" key={index}>
+            <li data-aos="fade-down" data-aos-delay={200 * index} className="inline-block  relative nav-link" key={index}>
               <Link href={link.link}>
                 <p className="">{link.lable}</p>
               </Link>
@@ -49,7 +49,7 @@ function Nav({ openMobileMenu }: NavProps) {
       </div>
       {/* Join Now Button */}
       <div className="flex justify-center items-center space-x-4 gap-3">
-        <button className="sm:p-2 sm:px-4 p-1 rounded-lg sm:rounded-3xl bg-blue-600 hover:bg-blue-900 cursor-pointer text-white transition-all duration-300 sm:text-lg text-sm">
+        <button data-aos="fade-up" className="sm:p-2 sm:px-4 p-1 rounded-lg sm:rounded-3xl bg-blue-600 hover:bg-blue-900 cursor-pointer text-white transition-all duration-300 sm:text-lg text-sm">
           Join Now
         </button>
         <HiOutlineMenuAlt3
